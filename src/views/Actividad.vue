@@ -20,7 +20,7 @@ export default {
       tema: 'Microcontroladores y sensores',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> evaluar los fundamentos normativos y los protocolos de gestión del escenario en primeros auxilios con el fin de identificar las responsabilidades legales del primer respondiente y garantizar el aseguramiento adecuado del entorno conforme a la normatividad vigente.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -28,400 +28,517 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            'El objetivo principal de la evaluación inicial del lesionado es:',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Realizar diagnóstico médico completo.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Determinar responsabilidades legales.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Identificar condiciones que comprometan la vida.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Trasladar inmediatamente a la víctima.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con los fundamentos normativos, la gestión del riesgo y la actuación del primer respondiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 2,
-          texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+          texto: 'El principio PAS establece el siguiente orden:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'Proteger – Socorrer – Avisar.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto: 'Proteger – Avisar – Socorrer.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Avisar – Proteger – Socorrer.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Socorrer – Avisar – Proteger.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con los fundamentos normativos, la gestión del riesgo y la actuación del primer respondiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto: 'La prioridad antes de intervenir en una emergencia es:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Evaluar signos vitales.', esCorrecta: false },
+            { id: 'b', texto: 'Tomar fotografías.', esCorrecta: false },
+            { id: 'c', texto: 'Mover a la víctima.', esCorrecta: false },
             {
               id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
+              texto: 'Garantizar la seguridad del entorno.',
+              esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con los fundamentos normativos, la gestión del riesgo y la actuación del primer respondiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            'Según el Código Penal Colombiano, la omisión de socorro está relacionada con:',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
+              texto: 'La obligación de realizar cirugías antes del evento.',
               esCorrecta: false,
             },
             {
+              id: 'b',
+              texto:
+                'La responsabilidad por no prestar ayuda cuando es posible hacerlo sin riesgo propio.',
+              esCorrecta: true,
+            },
+            {
               id: 'c',
-              texto: 'tStop',
+              texto:
+                'El deber de hacer una investigación profunda de la situación.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'El traslado obligatorio de la víctima.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con los fundamentos normativos, la gestión del riesgo y la actuación del primer respondiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: require('@/assets/actividad/imagen1.png'),
+          texto:
+            'El Sistema de Emergencias Médicas (SEM) tiene como función principal:',
+          imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto:
+                'Realizar la atención prehospitalaria y traslado asistido.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Realizar necropsias y traslado asistido.',
               esCorrecta: false,
             },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
+            { id: 'c', texto: 'Imponer sanciones legales.', esCorrecta: false },
+            { id: 'd', texto: 'Investigar delitos.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con los fundamentos normativos, la gestión del riesgo y la actuación del primer respondiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: 'En la valoración ABC, la letra “A” corresponde a:',
+          imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
+            { id: 'a', texto: 'Atención psicológica.', esCorrecta: false },
+            { id: 'b', texto: 'Vía aérea.', esCorrecta: true },
+            { id: 'c', texto: 'Activación del SEM.', esCorrecta: false },
+            { id: 'd', texto: 'Acordonamiento.', esCorrecta: false },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con los fundamentos normativos, la gestión del riesgo y la actuación del primer respondiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'El triage tiene como finalidad:',
+          imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Emitir diagnósticos médicos.',
+              esCorrecta: false,
+            },
+            { id: 'b', texto: 'Asignar responsabilidades.', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Clasificar víctimas según gravedad.',
               esCorrecta: true,
             },
             {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Trasladar pacientes leves primero.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con los fundamentos normativos, la gestión del riesgo y la actuación del primer respondiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: require('@/assets/actividad/imagen4.png'),
+          texto: 'En el triage, el color rojo indica:',
+          imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
+            { id: 'a', texto: 'Atención inmediata.', esCorrecta: true },
+            { id: 'b', texto: 'Sin riesgo vital.', esCorrecta: false },
+            { id: 'c', texto: 'Lesión leve.', esCorrecta: false },
+            { id: 'd', texto: 'Atención diferida.', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con los fundamentos normativos, la gestión del riesgo y la actuación del primer respondiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 9,
+          texto: 'El primer respondiente NO debe:',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Activar el SEM.', esCorrecta: false },
             {
-              id: 'a',
-              texto: 'tPlace',
+              id: 'b',
+              texto: 'Realizar procedimientos invasivos sin formación.',
               esCorrecta: true,
             },
             {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Aplicar presión en una hemorragia.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Evaluar el estado de conciencia.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con los fundamentos normativos, la gestión del riesgo y la actuación del primer respondiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: require('@/assets/actividad/imagen2.png'),
+          texto: 'Una medida básica de bioseguridad es:',
+          imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
+            { id: 'a', texto: 'Reutilizar guantes.', esCorrecta: false },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Evitar contacto con fluidos corporales.',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'No usar protección.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Manipular heridas sin barreras.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con los fundamentos normativos, la gestión del riesgo y la actuación del primer respondiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: require('@/assets/actividad/imagen3.png'),
+          texto: 'El aseguramiento del escenario implica:',
+          imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
+            { id: 'a', texto: 'Investigar el hecho.', esCorrecta: false },
+            { id: 'b', texto: 'Realizar interrogatorios.', esCorrecta: false },
             {
-              id: 'a',
-              texto: 'Verdadero',
+              id: 'c',
+              texto: 'Trasladar a la víctima sin evaluar.',
               esCorrecta: false,
             },
             {
-              id: 'b',
-              texto: 'Falso',
+              id: 'd',
+              texto: 'Controlar el entorno para evitar nuevos riesgos.',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con los fundamentos normativos, la gestión del riesgo y la actuación del primer respondiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
-          imagen: require('@/assets/actividad/imagen4.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: require('@/assets/actividad/imagen1.png'),
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 14,
-          texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            'En el ámbito prehospitalario y en eventos con múltiples víctimas, el triage permite:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Aumentar el caos operativo.',
+              esCorrecta: false,
+            },
+            { id: 'b', texto: 'Esperar sin actuar.', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Identificar y señalas responsables.',
               esCorrecta: false,
             },
             {
-              id: 'b',
-              texto: 'Falso',
+              id: 'd',
+              texto: 'Identificar personas con riesgo vital inminente.',
               esCorrecta: true,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con los fundamentos normativos, la gestión del riesgo y la actuación del primer respondiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
         {
-          id: 15,
-          texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+          id: 13,
+          texto: 'La cadena de custodia busca:',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Asignar prioridades médicas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto:
+                'Garantizar la conservación, integridad, autenticidad y trazabilidad de los elementos materiales probatorios.',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'Trasladar víctimas.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Priorizar la atención hospitalaria del paciente.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con los fundamentos normativos, la gestión del riesgo y la actuación del primer respondiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 14,
+          texto: '¿Cuál es un factor de riesgo?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Emocional.', esCorrecta: false },
+            { id: 'b', texto: 'Amoroso.', esCorrecta: false },
+            { id: 'c', texto: 'Químico.', esCorrecta: true },
+            { id: 'd', texto: 'Espiritual.', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con los fundamentos normativos, la gestión del riesgo y la actuación del primer respondiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 15,
+          texto: 'En la activación del SEM, se debe informar:',
+          imagen: require('@/assets/actividad/imagen5.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Solo el nombre del lesionado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Ubicación exacta y estado general.',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'Opiniones personales.', esCorrecta: false },
+            { id: 'd', texto: 'Diagnóstico definitivo.', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con los fundamentos normativos, la gestión del riesgo y la actuación del primer respondiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 16,
+          texto: 'En una hemorragia abundante, la medida inmediata es:',
+          imagen: require('@/assets/actividad/imagen6.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Aplicar presión directa.', esCorrecta: true },
+            { id: 'b', texto: 'Esperar a la ambulancia.', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Retirar objetos incrustados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Mover a la víctima sin control.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con los fundamentos normativos, la gestión del riesgo y la actuación del primer respondiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 17,
+          texto: 'El propósito del triage es:',
+          imagen: require('@/assets/actividad/imagen7.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Evaluación de los sentimientos de la persona.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Redistribución de recursos administrativos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Atención según la gravedad clínica y el riesgo vital.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Implementación de un sistema de gestión.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con los fundamentos normativos, la gestión del riesgo y la actuación del primer respondiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 18,
+          texto: 'El aseguramiento del escenario debe mantenerse:',
+          imagen: require('@/assets/actividad/imagen8.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Solo si hay policía.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Durante toda la intervención.',
+              esCorrecta: true,
+            },
+            { id: 'c', texto: 'Solo al inicio.', esCorrecta: false },
+            {
+              id: 'd',
+              texto: 'Únicamente en accidentes viales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con los fundamentos normativos, la gestión del riesgo y la actuación del primer respondiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 19,
+          texto:
+            'La higiene de manos constituye la medida más eficaz para prevenir:',
+          imagen: require('@/assets/actividad/imagen9.png'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Pintarse las uñas.', esCorrecta: false },
+            {
+              id: 'b',
+              texto: 'Tomar decisiones médicas definitivas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La transmisión de infecciones.',
+              esCorrecta: true,
+            },
+            { id: 'd', texto: 'Investigar causas.', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con los fundamentos normativos, la gestión del riesgo y la actuación del primer respondiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
+        },
+        {
+          id: 20,
+          texto: 'La Ley 1523 de 2012 se relaciona con:',
+          imagen: require('@/assets/actividad/imagen10.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Código de Procedimiento Civil.',
+              esCorrecta: false,
+            },
+            { id: 'b', texto: 'Código de Comercio.', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'Gestión del Riesgo de Desastres.',
+              esCorrecta: true,
+            },
+            { id: 'd', texto: 'Aspectos financieros.', esCorrecta: false },
+          ],
+          mensaje_correcto:
+            '¡Excelente trabajo! Se evidencia un buen dominio de los conceptos relacionados con los fundamentos normativos, la gestión del riesgo y la actuación del primer respondiente.',
+          mensaje_incorrecto:
+            'Revise nuevamente el contenido del componente formativo.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha superado la actividad y demuestra sólidos conocimientos sobre el componente formativo.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }

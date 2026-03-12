@@ -5,7 +5,18 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
-      h1 Tema 3
+      h1 Sistema de emergencias
+    separador
+    #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 3.1 Sistema de Emergencias Médicas (SEM)
+
+    separador
+    #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 3.2 Red pública y numero único
+
+    separador
+    #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 3.3 Activación y técnica de llamada
 
 </template>
 

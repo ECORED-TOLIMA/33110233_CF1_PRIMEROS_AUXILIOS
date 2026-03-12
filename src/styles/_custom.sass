@@ -2,13 +2,13 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 55%
+    right: 75%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 15%
+    right: 5%
 
 @keyframes float1
   0%
@@ -18,15 +18,221 @@
   
 .banner-principal .tarjeta
   background-position: left 50% !important
-
 .banner-principal__row .banner-principal__img
   width: 400px !important  
-
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
-
+// .titulo-principal.color-acento-contenido .titulo-principal__numero span
+//   color: black !important
 .banner-interno__titulo__icono i
   color: $color-primario
-
+.barra-avance__boton--regresar span
+  color: $white !important
+.banner-principal
+  .container.tarjeta
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png")
+    background-size: cover
+    background-position: center
+    @media (max-width: $bp-max-md)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png")
+    @media (max-width: $bp-max-xs)
+      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png")
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner.png") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
 figcaption
   font-weight: normal
+//- Modulo cajones 
+.cajon.C01
+  background-color: #FEE7EC
+.cajon.C02
+  background-color: #F6E1FE 
+//- Modulo tarjetas
+.tarjeta--tabla
+  background-color: #FEE7EC
+  &:nth-child(even)
+    background-color: #F6E1FE
+.tarjeta--C01
+  background-color: #FFF5D4 
+.tarjeta--C02
+  background-color: #FFCCE2 
+.tarjeta--C03
+  background-color: #F6E1FE
+.BG01
+  background-image: url("../assets/curso/BG01.png")
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -0.5rem !important
+.BG02
+  background-image: url("../assets/curso/BG02.png")
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -0.5rem !important
+.tarjeta--BG03
+  background-image: url("../assets/curso/BG03.png")
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -0.5rem !important
+//- Listas
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
+ol.lista-ol--cuadro.lista-ol--separador, ol.lista-ol--cuadro.lista-ol
+  li
+    .lista-ol--cuadro__vineta
+      span.text-bold
+        color: $black
+//- Modulo slyders
+.tarjeta--slyder  
+  height: 100%
+  background-color: white
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+  text-align: center
+.custom
+  .horizontal-scroll__wrapper
+    padding: 2rem 0.5rem
+.slyder-f__btn i
+  color: #025E20
+.custom
+  .horizontal-scroll
+    align-items: stretch !important
+.slyder__btn
+  background-color: #025E20
+  color: #fff
+.slyder-b__btn--sigt, .slyder-a__btn--atrs
+  background-color: #025E20
+  color: #FFFF
+  border: none
+  opacity: 100
+  background-image: url(../assets/curso/chevron-right2.png)
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  background-color: #025E20
+  color: #FFFF
+  border: none
+  opacity: 100
+  background-image: url(../assets/curso/chevron-right2.png)
+@media (max-width: 576px)
+  .slyder-a__btn--atrs, .slyder-a__btn--sigt 
+    width: 25px
+    height: 25px
+.slyder-a__bullets__item
+  background-color: #025E20
+  border: none
+.slyder-a__bullets__item--active
+  background-color: #FF9EBF
+  border: none
+//- Modulo medidas imagenes
+
+.img75
+  width: 75px 
+.img80
+  width: 80px 
+.img90
+  width: 90px 
+.img50
+  width: 50px
+.img100
+  width: 100px
+.img120
+  width: 120px
+.img130
+  width: 130px
+.img150
+  width: 150px
+.img180
+  width: 180px
+.img200
+  width: 200px
+.img250
+  width: 250px
+.img280
+  width: 280px
+.img310
+  width: 310px
+.img400
+  width: 400px
+//- modulo titulos adicionales
+.titulo01
+  position: relative
+  left: -2%
+  background-color: #FFE19A
+  border-radius: 20px
+  h3
+    color: black
+  @media screen and ( max-width: $bp-max-lg )
+    left: -3%
+  @media screen and ( max-width: $bp-max-sm )
+    left: -4%
+///////// Card hover x 3 tarjetas--------------------------------------
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      background-color: #D0F8DF
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      h5.t2
+        color: $black
+        display: block
+        background-image: url('../assets/curso/ico-down.svg')
+        background-size: 7% 100%
+        background-repeat: no-repeat
+        padding-left: 2.0rem
+      h5.t1
+        display: none
+        
+      @media (max-width:767px)  
+        p
+          font-size: 0.85em
+        h5.t2
+          background-size: 5.5% 100%
+.crd_hover_txt--body
+  position: absolute
+  padding: 1.5rem
+  bottom: 0    
+  transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+  transform: translateY(calc( 100% - 3.85rem ))
+  background-color: #D0F8DF
+  h5.t2
+      display: none
+  h5.t1
+    display: block
+    color: $black
+    cursor: pointer
+    background-image: url('../assets/curso/ico-up.svg')
+    background-size: 7% 100%
+    background-repeat: no-repeat
+    padding-left: 2.0rem
+@media (min-width:1200px) and (max-width:1400px)  
+  .crd_hover_txt--body
+    p
+      font-size: 0.85em
+.crd_hover_txt .crd_hover_txt--body
+  padding: 1.5rem 0.8rem !important
+  width: 100%
+//- tarjetas cambio de color HOVER
+.bg
+  &-c1
+    background-color: #FFCCE2
+    border-bottom-left-radius: 15px
+    border-bottom-right-radius: 15px
+    transition: all 0.5s ease
+    height: 240px
+    @media screen and (max-width: $bp-max-xl)
+      p.text-desc
+        font-size: 0.9em
+    @media screen and (max-width: $bp-max-lg)
+      height: 310px
+      p.text-desc
+        font-size: 0.9em
+    @media screen and (max-width: $bp-max-md)
+      height: auto
+      p.text-desc
+        font-size: 0.9em
