@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69" height="69" viewBox="0 0 69 69">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_459417" data-name="Rectángulo 459417" width="42" height="42" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1208359" data-name="Grupo 1208359" transform="translate(-616.422 -749.337)">
+    <circle id="Elipse_13676" data-name="Elipse 13676" cx="34.5" cy="34.5" r="34.5" transform="translate(616.422 749.337)" fill="#6a2874"/>
+    <g id="Grupo_1209150" data-name="Grupo 1209150" transform="translate(630.422 763.337)">
+      <g id="Grupo_1209149" data-name="Grupo 1209149" clip-path="url(#clip-path)">
+        <path id="Trazado_1269131" data-name="Trazado 1269131" d="M84.891,102.853H57.967c.9-4.553,1.4-9.2,2.382-13.741,2.58-11.969,19.551-11.967,22.139-.1,1,4.569,1.492,9.257,2.4,13.842m-12.1-16.487H70.063v7.4l.2.181H72.6l.2-.181Zm0,9.387H70.063v2.527h2.731Z" transform="translate(-50.427 -70.48)" fill="#fff"/>
+        <rect id="Rectángulo_459415" data-name="Rectángulo 459415" width="35.248" height="7.221" transform="translate(3.377 34.779)" fill="#fff"/>
+        <rect id="Rectángulo_459416" data-name="Rectángulo 459416" width="2.731" height="5.656" transform="translate(19.636)" fill="#fff"/>
+        <path id="Trazado_1269132" data-name="Trazado 1269132" d="M65.816,25.159,62.95,20.4C62.945,20,64.756,19.37,65.1,19.024L68.137,23.8c.034.309-1.925,1.22-2.321,1.363" transform="translate(-54.762 -16.735)" fill="#fff"/>
+        <path id="Trazado_1269133" data-name="Trazado 1269133" d="M5.326,87.3,0,84.524A9.89,9.89,0,0,1,1.3,82.418L6.627,85.2Z" transform="translate(0 -72.499)" fill="#fff"/>
+        <path id="Trazado_1269134" data-name="Trazado 1269134" d="M222.389,25.158l-2.282-1.2-.045-.163,3.043-4.77,2.273,1.26Z" transform="translate(-191.439 -16.734)" fill="#fff"/>
+        <path id="Trazado_1269135" data-name="Trazado 1269135" d="M278.2,82l1.165,2.156-5.323,2.778c-.026-.435-1.383-1.992-1.164-2.277Z" transform="translate(-237.36 -72.132)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

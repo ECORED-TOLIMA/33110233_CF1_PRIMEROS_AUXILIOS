@@ -189,7 +189,7 @@ export default {
         },
         {
           id: 7,
-          texto: 'El triage tiene como finalidad:',
+          texto: 'El <em>triage</em> tiene como finalidad:',
           imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
@@ -217,7 +217,7 @@ export default {
         },
         {
           id: 8,
-          texto: 'En el triage, el color rojo indica:',
+          texto: 'En el <em>triage</em>, el color rojo indica:',
           imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
@@ -310,7 +310,7 @@ export default {
         {
           id: 12,
           texto:
-            'En el ámbito prehospitalario y en eventos con múltiples víctimas, el triage permite:',
+            'En el ámbito prehospitalario y en eventos con múltiples víctimas, el <em>triage</em> permite:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
@@ -431,7 +431,7 @@ export default {
         },
         {
           id: 17,
-          texto: 'El propósito del triage es:',
+          texto: 'El propósito del <em>triage</em> es:',
           imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [

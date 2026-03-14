@@ -64,7 +64,7 @@
       p.mb-0.text-center.order-3.mt-4(data-aos="fade-down") Los primeros auxilios se caracterizan por ser:
     .BG02.mb-5(data-aos="flip-up")
       .row.justify-content-center.align-items-center(data-aos="fade-down")
-        .col-lg-4.d-none.d-lg-block
+        .col-lg-4.d-none.d-lg-block.py-3.px-5
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/img07.png", alt="Imagen decorativa")
         .col-lg-8
@@ -169,7 +169,7 @@
         p.mb-0(data-aos="fade-down") La función del primer respondiente no es realizar actos médicos, sino brindar asistencia básica y organizar la respuesta inicial. Su intervención se orienta a:
     .BG02.mb-5(data-aos="flip-up")
       .row.justify-content-center.align-items-center(data-aos="fade-down")
-        .col-lg-4.d-none.d-lg-block
+        .col-lg-4.d-none.d-lg-block.py-3.px-5
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/img20.png", alt="Imagen decorativa")
         .col-lg-8
@@ -267,7 +267,7 @@
     p.mb-5(data-aos="fade-down") El primer respondiente debe actuar dentro de límites claramente definidos para evitar daño adicional o implicaciones legales. No debe:
     .BG02.mb-5(data-aos="flip-up")
       .row.justify-content-center.align-items-center(data-aos="fade-down")
-        .col-lg-4.d-none.d-lg-block
+        .col-lg-4.d-none.d-lg-block.py-3.px-5
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/img32.png", alt="Imagen decorativa")
         .col-lg-8
@@ -408,7 +408,7 @@
           .row.justify-content-center.p-4
             .col-lg-6.order-lg-1.order-2
               .row
-                .col-auto.mb-4
+                .col-auto.mb-4.d-none.d-lg-block
                   figure
                     img(src='@/assets/curso/tema1/img44.svg', alt='Imagen decorativa')
                 .col-lg-12
@@ -435,7 +435,7 @@
           .row.justify-content-center.p-4
             .col-lg-6.order-lg-1.order-2
               .row
-                .col-auto.mb-4
+                .col-auto.mb-4.d-none.d-lg-block
                   figure
                     img(src='@/assets/curso/tema1/img46.svg', alt='Imagen decorativa')
                 .col-lg-12
@@ -459,7 +459,7 @@
           .row.justify-content-center.p-4
             .col-lg-6.order-lg-1.order-2
               .row
-                .col-auto.mb-4
+                .col-auto.mb-4.d-none.d-lg-block
                   figure
                     img(src='@/assets/curso/tema1/img48.svg', alt='Imagen decorativa')
                 .col-lg-12
@@ -473,7 +473,7 @@
                       p.mb-0 Evaluar coloración de piel (palidez extrema o cianosis).
                     li.mb-0
                       i.lista-ul__vineta
-                      p.mb-0 Verificar signos evidentes de shock (sudoración fría o debilidad marcada).
+                      p.mb-0 Verificar signos evidentes de <em>shock</em> (sudoración fría o debilidad marcada).
                     li.mb-0
                       i.lista-ul__vineta
                       p.mb-0 Si hay hemorragia externa, aplicar presión directa con material limpio, no retirar objetos incrustados y no aplicar torniquetes improvisados sin formación específica.
@@ -657,7 +657,7 @@
         p.mb-0(data-aos="fade-down") La conducta bioética se fundamenta en principios universalmente reconocidos en el ámbito de la salud y compatibles con el ordenamiento jurídico colombiano, particularmente con el respeto por la dignidad humana consagrado en el artículo 1 de la Constitución Política. Aunque el primer respondiente no realiza un acto médico formal, su actuación debe orientarse por los siguientes principios:
     .BG02.mb-5(data-aos="flip-up")
       .row.justify-content-center.align-items-center(data-aos="fade-down")
-        .col-lg-4.d-none.d-lg-block
+        .col-lg-4.d-none.d-lg-block.py-3.px-5
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/img61.png", alt="Imagen decorativa")
         .col-lg-8

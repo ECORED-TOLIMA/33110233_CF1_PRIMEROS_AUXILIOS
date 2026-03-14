@@ -144,7 +144,7 @@ export default {
         subMenu: [
           {
             numero: '6.1',
-            titulo: 'Triage y aplicación básica',
+            titulo: '<em>Triage</em> y aplicación básica',
             hash: 't_6_1',
           },
           { numero: '6.2', titulo: 'Cadena de custodia', hash: 't_6_2' },
@@ -300,7 +300,7 @@ export default {
         'Modelo organizativo encargado de coordinar la respuesta prehospitalaria, el traslado y la atención inicial en situaciones de urgencia y emergencia.',
     },
     {
-      termino: 'Triage',
+      termino: '<em>Triage</em>',
       significado:
         'Proceso de clasificación de víctimas en función de la gravedad de sus lesiones y la prioridad de atención.',
     },
@@ -318,23 +318,23 @@ export default {
   referencias: [
     {
       referencia:
-        'American Heart Association. (s. f.). American Heart Association.',
+        'American Heart Association. (s. f.). <em>American Heart Association</em>.',
       link: 'https://www.heart.org/',
     },
     {
       referencia:
-        'Beauchamp, T. L., & Childress, J. F. (2019). Principles of biomedical ethics (8th ed.). Oxford University Press.',
+        'Beauchamp, T. L., & Childress, J. F. (2019). <em>Principles of biomedical ethics</em> (8th ed.). Oxford University Press.',
       link: '',
     },
     {
       referencia:
-        'Congreso de la República de Colombia. (2000). Ley 599 de 2000: Por la cual se expide el Código Penal.',
+        'Congreso de la República de Colombia. (2000). <em>Ley 599 de 2000: Por la cual se expide el Código Penal</em>.',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=6388',
     },
     {
       referencia:
-        'Congreso de la República de Colombia. (2012). Ley 1523 de 2012: Por la cual se adopta la política nacional de gestión del riesgo de desastres y se establece el Sistema Nacional de Gestión del Riesgo de Desastres.',
+        'Congreso de la República de Colombia. (2012). <em>Ley 1523 de 2012: Por la cual se adopta la política nacional de gestión del riesgo de desastres y se establece el Sistema Nacional de Gestión del Riesgo de Desastres</em>.',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=47141',
     },
@@ -346,39 +346,40 @@ export default {
     },
     {
       referencia:
-        'Constitución Política de Colombia. (1991). Constitución Política de Colombia.',
+        'Constitución Política de Colombia. (1991). <em>Constitución Política de Colombia</em>.',
       link: 'http://www.secretariasenado.gov.co/constitucion-politica',
     },
     {
       referencia:
-        'Cruz Roja Colombiana. (s. f.). Manual básico de primeros auxilios.',
+        'Cruz Roja Colombiana. (s. f.). <em>Manual básico de primeros auxilios</em>.',
       link: '',
     },
     {
       referencia:
-        'Ministerio de Salud y Protección Social. (s. f.). Aseguramiento al sistema general de salud.',
+        'Ministerio de Salud y Protección Social. (s. f.). <em>Aseguramiento al sistema general de salud</em>.',
       link:
         'https://www.minsalud.gov.co/proteccionsocial/Regimensubsidiado/Paginas/aseguramiento-al-sistema-general-salud.aspx',
     },
     {
-      referencia: 'Ministerio de Salud y Protección Social. (s. f.). Triage.',
+      referencia:
+        'Ministerio de Salud y Protección Social. (s. f.). <em>Triage</em>.',
       link: 'https://www.minsalud.gov.co/salud/PServicios/Paginas/triage.aspx',
     },
     {
       referencia:
-        'Ministerio de Salud y Protección Social. (s. f.). Sistema de Emergencias Médicas (SEM).',
+        'Ministerio de Salud y Protección Social. (s. f.). <em>Sistema de Emergencias Médicas (SEM)</em>.',
       link:
         'https://www.minsalud.gov.co/salud/PServicios/Paginas/Sistema-de-emergencias-medicas-SEM.aspx',
     },
     {
       referencia:
-        'Oficina de las Naciones Unidas para la Reducción del Riesgo de Desastres (UNDRR). (2015). Sendai framework for disaster risk reduction 2015–2030.',
+        'Oficina de las Naciones Unidas para la Reducción del Riesgo de Desastres (UNDRR). (2015). <em>Sendai framework for disaster risk reduction 2015–2030</em>.',
       link:
         'https://www.undrr.org/publication/sendai-framework-disaster-risk-reduction-2015-2030',
     },
     {
       referencia:
-        'Organización Mundial de la Salud. (2009). WHO guidelines on hand hygiene in health care.',
+        'Organización Mundial de la Salud. (2009). <em>WHO guidelines on hand hygiene in health care</em>.',
       link:
         'https://iris.who.int/server/api/core/bitstreams/b7cdc469-d662-4958-adfd-949a750e5ad9/content',
     },
