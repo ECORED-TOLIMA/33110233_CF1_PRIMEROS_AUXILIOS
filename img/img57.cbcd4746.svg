@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69" height="69" viewBox="0 0 69 69">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_459159" data-name="Rectángulo 459159" width="41.15" height="38.463" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1208200" data-name="Grupo 1208200" transform="translate(-616.277 -749.381)">
+    <circle id="Elipse_13676" data-name="Elipse 13676" cx="34.5" cy="34.5" r="34.5" transform="translate(616.277 749.381)" fill="#6a2874"/>
+    <g id="Grupo_1209004" data-name="Grupo 1209004" transform="translate(630.278 764.381)">
+      <g id="Grupo_1209003" data-name="Grupo 1209003" clip-path="url(#clip-path)">
+        <path id="Trazado_1268340" data-name="Trazado 1268340" d="M72.323,120.27c.2-.952,1.407-1.724,2.792-1.8,5.7.194,11.853-.294,17.505-.015a3.6,3.6,0,0,1,2.828,1.09,5.248,5.248,0,0,1,.37.725v8.124l-.214.147H72.537l-.214-.147Z" transform="translate(-62.025 -101.512)" fill="#fff"/>
+        <path id="Trazado_1268341" data-name="Trazado 1268341" d="M93.323,45.237c.111-.673.966-1.843,1.707-1.922,1.852,7.176,12.183,7.267,13.958,0,.922.075,1.85,1.632,1.85,2.492v5.909H93.323Z" transform="translate(-80.034 -37.146)" fill="#fff"/>
+        <path id="Trazado_1268342" data-name="Trazado 1268342" d="M253.827,142.84h-2.848v-5.7h-2.99v-8.828h3.346a3.493,3.493,0,0,1,2.492,2.35Z" transform="translate(-212.677 -110.045)" fill="#fff"/>
+        <path id="Trazado_1268343" data-name="Trazado 1268343" d="M4.05,126.448c5.87-.541,6.362,8.708.385,8.8-5.476.085-6.2-8.265-.385-8.8" transform="translate(0 -108.423)" fill="#fff"/>
+        <path id="Trazado_1268344" data-name="Trazado 1268344" d="M127.665.079c6.866-1.074,6.858,9.137.537,8.65-5.069-.39-5.2-7.921-.537-8.65" transform="translate(-106.582 0)" fill="#fff"/>
+        <rect id="Rectángulo_459157" data-name="Rectángulo 459157" width="3.152" height="10.295" transform="translate(18.438 28.168)" fill="#fff"/>
+        <rect id="Rectángulo_459158" data-name="Rectángulo 459158" width="3.152" height="10.295" transform="translate(23.166 28.168)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
