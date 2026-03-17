@@ -37,7 +37,7 @@
         p.text-center.text-bold(data-aos="fade-down") Limitada a la competencia del primer respondiente.
     separador
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 1.1 Generalidades y definiciones básicas
+      h2 1.1 Generalidades de los primeros auxilios
     p(data-aos="fade-down") Los primeros auxilios constituyen el conjunto de acciones inmediatas y temporales que se brindan a una persona ante una situación de urgencia o emergencia, con el propósito de preservar la vida, evitar el agravamiento de las lesiones y facilitar el acceso oportuno a la atención médica especializada. Representan la primera respuesta organizada frente a un evento adverso y forman parte esencial de la cadena de atención en salud.
     .row.BG01.justify-content-center.align-items-center.pt-4.pb-4.mb-4
       .col.col-lg-3.col-8.order-lg-1.order-1.mb-lg-0.mb-3

@@ -37,7 +37,7 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Generalidades y definiciones básicas',
+            titulo: 'Generalidades de los primeros auxilios',
             hash: 't_1_1',
           },
           {
