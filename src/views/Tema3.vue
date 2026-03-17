@@ -68,7 +68,7 @@
             .col.col-lg-auto.order-lg-2.order-1.d-none.d-lg-block
               figure.mb-0
                 img(src='@/assets/curso/tema3/img09.svg', alt='Imagen decorativa')
-    .row.BG01.justify-content-center.pt-4.pb-4.mb-5
+    .row.BG01.justify-content-center.pt-4.pb-4
       .col.col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema3/img10.svg', alt='Imagen decorativa')
@@ -216,7 +216,7 @@
           .tarjeta.tarjeta--C02(style= "width: 100%")
             .p-4(data-aos="fade-down") 
               h5.text-center Seguir las instrucciones proporcionadas.
-      .col.col-lg-3.col-12.col-lg.mb-5.mb-lg-0(data-aos="flip-up")
+      .col.col-lg-3.col-12.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/tema3/img27.svg' alt='AvatarTop')
           .tarjeta.tarjeta--C02(style= "width: 100%")

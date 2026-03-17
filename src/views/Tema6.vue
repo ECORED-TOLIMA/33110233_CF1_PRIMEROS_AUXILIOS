@@ -25,7 +25,7 @@
     separador
     #t_6_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 6.1 <em>triage</em> y aplicación básica
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-4
       .col.col-lg-4.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema6/img03.png', alt='Imagen decorativa')
@@ -158,7 +158,7 @@
           .tarjeta.tarjeta--C02(style= "width: 100%")
             .p-4(data-aos="fade-down")
               p.text-center ¿Puede caminar?
-      .col.col-lg-4.col-12.col-lg.mb-5.mb-lg-0(data-aos="flip-up")
+      .col.col-lg-4.col-12.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/tema6/img12.svg' alt='AvatarTop')
           .tarjeta.tarjeta--C02(style= "width: 100%")
@@ -237,7 +237,7 @@
                 .col-6.col-lg-8
                   img(src="@/assets/curso/tema6/img23.svg", alt="Imagen decorativa").img100.m-auto
               p Informar oportunamente a la autoridad competente sobre la situación.
-    .row.BG01.justify-content-center.align-items-center.pt-4.pb-4.mb-4
+    .row.BG01.justify-content-center.align-items-center.pt-4.pb-4
       .col.col-lg-3.col-8.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema6/img24.svg', alt='Imagen decorativa')

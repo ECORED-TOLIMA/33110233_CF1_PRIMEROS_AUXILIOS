@@ -216,7 +216,7 @@
                 .col-6.col-lg-8
                   img(src="@/assets/curso/tema7/img29.svg", alt="Imagen decorativa").img100.m-auto
               p Elementos para control básico de hemorragias.
-    .row.BG01.justify-content-center.pt-4.pb-4.mb-5
+    .row.BG01.justify-content-center.pt-4.pb-4
       .col.col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema7/img30.svg', alt='Imagen decorativa')
@@ -269,7 +269,7 @@
           .tarjeta.tarjeta--C02(style= "width: 100%")
             .p-4(data-aos="fade-down")
               p.text-center Verificar que el material esté en condiciones adecuadas.
-      .col.col-lg-3.col-12.col-lg.mb-5.mb-lg-0(data-aos="flip-up")
+      .col.col-lg-3.col-12.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/tema7/img35.svg' alt='AvatarTop')
           .tarjeta.tarjeta--C02(style= "width: 100%")

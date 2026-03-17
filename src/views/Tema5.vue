@@ -35,7 +35,7 @@
           .tarjeta.tarjeta--C02(style= "width: 100%")
             .p-4(data-aos="fade-down") 
               h5.text-center Evitar la ampliación del daño o la aparición de nuevas víctimas.
-      .col.col-lg-4.col-12.col-lg.mb-5.mb-lg-0(data-aos="flip-up")
+      .col.col-lg-4.col-12.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/tema5/img05.svg' alt='AvatarTop')
           .tarjeta.tarjeta--C02(style= "width: 100%")
@@ -105,7 +105,7 @@
     #t_5_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 5.2 Acordonamiento y control del evento
     p.mb-5(data-aos="fade-down") El acordonamiento constituye una medida básica de control del escenario que busca delimitar físicamente el área donde ocurrió el evento, con el fin de garantizar condiciones mínimas de seguridad y orden. No se trata únicamente de aislar el espacio, sino de organizar el entorno para facilitar la atención y evitar nuevos riesgos.
-    .row.BG01.justify-content-center.pt-4.pb-4.mb-5
+    .row.BG01.justify-content-center.pt-4.pb-4
       .col.col-lg-3.col-8.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema5/img10.svg', alt='Imagen decorativa')

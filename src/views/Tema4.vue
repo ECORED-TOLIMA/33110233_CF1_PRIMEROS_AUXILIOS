@@ -47,7 +47,7 @@
           .tarjeta.tarjeta--C02(style= "width: 100%")
             .p-4(data-aos="fade-down") 
               h5.text-center Esguinces.
-      .col.col-lg-4.col-12.col-lg.mb-5.mb-lg-0(data-aos="flip-up")
+      .col.col-lg-4.col-12.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/tema4/img06.svg' alt='AvatarTop')
           .tarjeta.tarjeta--C02(style= "width: 100%")
@@ -212,7 +212,7 @@
             .cajon.cajon.C01.color-primario.p-4
               p.mb-0(data-aos="fade-down") Estas medidas hacen parte del enfoque de reducción del riesgo y constituyen una fase previa al aseguramiento formal del escenario.
         p.mb-0(data-aos="fade-down") La minimización del riesgo no implica controlar completamente la situación, sino aplicar decisiones prudentes que permitan intervenir sin exponerse innecesariamente. La seguridad personal es la primera prioridad en cualquier actuación en primeros auxilios.
-    .row.BG01.justify-content-center.pt-4.pb-4.mb-5
+    .row.BG01.justify-content-center.pt-4.pb-4
       .col.col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema4/img24.svg', alt='Imagen decorativa')

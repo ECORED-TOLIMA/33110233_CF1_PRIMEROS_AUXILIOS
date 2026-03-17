@@ -228,7 +228,7 @@
           .tarjeta.tarjeta--C02(style= "width: 100%")
             .p-4(data-aos="fade-down")
               h5.text-center La gravedad de la situación.
-      .col.col-lg-3.col-12.col-lg.mb-5.mb-lg-0(data-aos="flip-up")
+      .col.col-lg-3.col-12.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img30.svg' alt='AvatarTop')
           .tarjeta.tarjeta--C02(style= "width: 100%")
@@ -487,7 +487,7 @@
       .col-lg-auto.col-9.titulo01(style="z-index:1")
         .p-2
           h3.mb-0.ms-3 d) Identificación de signos evidentes de trauma
-    .row.BG01.justify-content-center.align-items-center.pt-4.pb-4.mb-4
+    .row.BG01.justify-content-center.align-items-center.pt-4.pb-4
       .col.col-lg-4.col-8.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema1/img50.svg', alt='Imagen decorativa')
@@ -710,14 +710,14 @@
           .tarjeta.tarjeta--C02(style= "width: 100%")
             .p-4(data-aos="fade-down")
               h5.text-center Solicitar autorización para intervenir.
-      .col.col-lg-4.col-12.col-lg.mb-5.mb-lg-0(data-aos="flip-up")
+      .col.col-lg-4.col-12.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/tema1/img69.svg' alt='AvatarTop')
           .tarjeta.tarjeta--C02(style= "width: 100%")
             .p-4(data-aos="fade-down")
               h5.text-center Respetar la negativa, salvo que exista riesgo vital evidente.
     p.mb-0(data-aos="fade-down") En caso de inconsciencia, se presume consentimiento para acciones orientadas a preservar la vida, en concordancia con el principio de protección de la vida y la integridad.
-    .row.BG01.justify-content-center.align-items-center.pt-4.pb-4.mb-4
+    .row.BG01.justify-content-center.align-items-center.pt-4.pb-4
       .col.col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema1/img70.svg', alt='Imagen decorativa')
