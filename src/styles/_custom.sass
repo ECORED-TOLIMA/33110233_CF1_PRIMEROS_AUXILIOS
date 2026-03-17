@@ -93,6 +93,8 @@ ol.lista-ol--cuadro.lista-ol--separador, ol.lista-ol--cuadro.lista-ol
     .lista-ol--cuadro__vineta
       span.text-bold
         color: $black
+.lista-ul--color li > i:first-of-type
+  color: #EABB5D
 //- Modulo slyders
 .tarjeta--slyder  
   height: 100%
@@ -224,23 +226,48 @@ ol.lista-ol--cuadro.lista-ol--separador, ol.lista-ol--cuadro.lista-ol
   padding: 1.5rem 0.8rem !important
   width: 100%
 //- tarjetas cambio de color HOVER
+  
+  // Contenedor de tarjeta (recomendado)
+.card-custom
+  display: flex
+  flex-direction: column
+  height: 100%
+
+  figure
+    margin: 0
+
+    img
+      width: 100%
+      display: block
 .bg
   &-c1
     background-color: #FFCCE2
     border-bottom-left-radius: 15px
     border-bottom-right-radius: 15px
     transition: all 0.5s ease
-    height: 240px
+
+    // Hace que el contenido se adapte y todas las tarjetas crezcan igual
+    height: 100%
+    display: flex
+    align-items: center
+
+    // Espaciado interno (opcional si no lo controlas desde el HTML)
+    padding: 1.5rem
+
+    p
+      margin-bottom: 0
+
+    // Ajustes responsive de texto
     @media screen and (max-width: $bp-max-xl)
-      p.text-desc
-        font-size: 0.9em
+      p
+        font-size: 0.95em
+
     @media screen and (max-width: $bp-max-lg)
-      height: 310px
-      p.text-desc
+      p
         font-size: 0.9em
+
     @media screen and (max-width: $bp-max-md)
-      height: auto
-      p.text-desc
+      p
         font-size: 0.9em
 //- Modulo tablas
 .table

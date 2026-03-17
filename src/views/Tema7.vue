@@ -107,39 +107,30 @@
     p(data-aos="fade-down") Los métodos de barrera constituyen una herramienta esencial para minimizar la exposición a riesgos biológicos durante la atención inicial. Su finalidad es interponer un elemento físico entre el primer respondiente y los fluidos corporales o secreciones potencialmente contaminantes, reduciendo así la probabilidad de transmisión de enfermedades.
     p.mb-4(data-aos="fade-down") Entre los más utilizados se encuentran:
     .row.justify-content-center.mb-4(data-aos="flip-down")
-      .col-lg-5.col-12.col-lg.m-2
-        .row
-          .col-12.px-0
-            figure(data-aos="fade-up")
-              img(src='@/assets/curso/tema7/img13.png', style="width: 100%" ,alt='Imagen decorativa').m-auto
-          .col-12.bg-c1.h-100
-            .p-4
-              p Guantes desechables, preferiblemente de látex o nitrilo, para evitar el contacto directo con sangre, secreciones o tejidos lesionados.
-      .col-lg-5.col-12.col-lg.m-2
-        .row
-          .col-12.px-0
-            figure(data-aos="fade-up")
-              img(src='@/assets/curso/tema7/img14.png', style="width: 100%" ,alt='Imagen decorativa').m-auto
-          .col-12.bg-c1.h-100
-            .p-4
-              p Protector nasobucal o mascarilla quirúrgica, especialmente cuando exista riesgo de exposición a secreciones respiratorias.
-      .col-lg-5.col-12.col-lg.m-2
-        .row
-          .col-12.px-0
-            figure(data-aos="fade-up")
-              img(src='@/assets/curso/tema7/img15.png', style="width: 100%" ,alt='Imagen decorativa').m-auto
-          .col-12.bg-c1.h-100
-            .p-4
-              p Mascarillas o dispositivos con válvula unidireccional para reanimación cardiopulmonar, que permiten realizar ventilaciones de rescate de manera más segura.
-      .col-lg-5.col-12.col-lg.m-2
-        .row
-          .col-12.px-0
-            figure(data-aos="fade-up")
-              img(src='@/assets/curso/tema7/img16.png', style="width: 100%" ,alt='Imagen decorativa').m-auto
-          .col-12.bg-c1.h-100
-            .p-4
-              p Gafas o protectores oculares cuando exista riesgo de salpicaduras.
-              br
+      .col-lg-6.col-12.mb-4.d-flex
+        .card-custom.w-100.d-flex.flex-column
+          figure.px-0.mb-0
+            img(src='@/assets/curso/tema7/img13.png', alt='Imagen decorativa')
+          .bg-c1.flex-grow-1.d-flex.align-items-center
+            p.mb-0 Guantes desechables, preferiblemente de látex o nitrilo, para evitar el contacto directo con sangre, secreciones o tejidos lesionados.
+      .col-lg-6.col-12.mb-4.d-flex
+        .card-custom.w-100.d-flex.flex-column
+          figure.px-0.mb-0
+            img(src='@/assets/curso/tema7/img14.png', alt='Imagen decorativa')
+          .bg-c1.flex-grow-1.d-flex.align-items-center
+            p.mb-0 Protector nasobucal o mascarilla quirúrgica, especialmente cuando exista riesgo de exposición a secreciones respiratorias.
+      .col-lg-6.col-12.mb-4.d-flex
+        .card-custom.w-100.d-flex.flex-column
+          figure.px-0.mb-0
+            img(src='@/assets/curso/tema7/img15.png', alt='Imagen decorativa')
+          .bg-c1.flex-grow-1.d-flex.align-items-center
+            p.mb-0 Mascarillas o dispositivos con válvula unidireccional para reanimación cardiopulmonar, que permiten realizar ventilaciones de rescate de manera más segura.
+      .col-lg-6.col-12.mb-4.d-flex
+        .card-custom.w-100.d-flex.flex-column
+          figure.px-0.mb-0
+            img(src='@/assets/curso/tema7/img16.png', alt='Imagen decorativa')
+          .bg-c1.flex-grow-1.d-flex.align-items-center
+            p.mb-0 Gafas o protectores oculares cuando exista riesgo de salpicaduras.
     p.mb-5(data-aos="fade-down") El uso de estos elementos debe realizarse antes del contacto con la víctima siempre que la situación lo permita. Asimismo, deben retirarse cuidadosamente para evitar la contaminación cruzada, evitando tocar la parte externa del elemento utilizado y realizando higiene de manos inmediatamente después de su retiro.
     .row.justify-content-center.align-items-center.mb-0
       .col.col-lg-2.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3

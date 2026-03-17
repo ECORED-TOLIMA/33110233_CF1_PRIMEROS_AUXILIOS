@@ -318,8 +318,9 @@ export default {
   referencias: [
     {
       referencia:
-        'American Heart Association. (s. f.). <em>American Heart Association</em>.',
-      link: 'https://www.heart.org/',
+        'American Heart Association. (2025). <em>Aspectos destacados de las guías de la American Heart Association de 2025 para RCP y ACE</em> [Informe]. ',
+      link:
+        'https://cpr.heart.org/-/media/CPR-Files/2025-documents-for-cpr-heart-edits-posting/Resuscitation-Science/JN1582_ESXM_Hghlghts_2025ECCGuidelines_Final_251022.pdf?sc_lang=en',
     },
     {
       referencia:

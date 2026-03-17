@@ -271,6 +271,7 @@
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/img32.png", alt="Imagen decorativa")
         .col-lg-8
+          p.mt-4.text-center.text-lg-start(data-aos="fade-down") El primer respondiente debe actuar dentro de límites claramente definidos para evitar daño adicional o implicaciones legales. No debe:
           SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-4")
             .tarjeta.tarjeta--slyder.p-4
               .row.justify-content-center.mb-3
@@ -480,7 +481,7 @@
             .col-lg-6.col-10.order-lg-2.order-1.mb-lg-0.mb-4
               figure
                 img(src='@/assets/curso/tema1/img49.png', alt='Imagen decorativa')
-    .row.align-items-center.mb-5(data-aos="flip-down")
+    .row.align-items-center(data-aos="flip-down")
       .col-auto.pe-0(style="z-index:2")
         figure
           img(src='@/assets/curso/ico.svg', style="width: 55px" ,alt='').m-auto

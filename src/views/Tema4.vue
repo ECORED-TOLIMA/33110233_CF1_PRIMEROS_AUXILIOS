@@ -86,14 +86,14 @@
             figure
               img(src="@/assets/curso/tema4/img11.svg", alt="alt").img90.m-auto
           h5.text-center Trauma grave.
-    p(data-aos="fade-down") En la práctica, el criterio diferenciador radica en la presencia o no de compromiso de funciones vitales como respiración, circulación o estado de conciencia.
-    p.mb-5(data-aos="fade-down") Por otra parte, un #[b factor de riesgo] es cualquier condición, agente o circunstancia que incrementa la probabilidad de daño. Estos pueden clasificarse en:
+    p.mb-5(data-aos="fade-down") En la práctica, el criterio diferenciador radica en la presencia o no de compromiso de funciones vitales como respiración, circulación o estado de conciencia.
     .BG02.mb-5(data-aos="flip-up")
       .row.justify-content-center.align-items-center(data-aos="fade-down")
         .col-lg-4.d-none.d-lg-block.py-3.px-5
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema4/img12.png", alt="Imagen decorativa")
         .col-lg-8
+          p.mt-5.text-center.text-lg-start(data-aos="fade-down") Por otra parte, un #[b factor de riesgo] es cualquier condición, agente o circunstancia que incrementa la probabilidad de daño. Estos pueden clasificarse en:
           SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-4")
             .tarjeta.tarjeta--slyder.p-4
               .row.justify-content-center.mb-3
@@ -130,10 +130,10 @@
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.2 Identificación de riesgos y tipos de accidentes
     .row.justify-content-center.mb-4
-      .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3
+      .col.col-lg-5.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema4/img19.png', alt='Imagen decorativa')
-      .col.col-lg-7.col-12.order-lg-2.order-2
+      .col.col-lg-7.col-12.order-lg-1.order-2
         p(data-aos="fade-down") Los eventos que requieren primeros auxilios pueden presentarse en diversos contextos, cada uno con características particulares que condicionan el tipo de lesión y la forma de intervención. La identificación del entorno permite anticipar mecanismos de lesión, priorizar la atención y aplicar medidas preventivas adecuadas.
         .row.mb-3
           .col-lg-2.d-none.d-lg-block

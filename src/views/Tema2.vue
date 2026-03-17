@@ -180,7 +180,7 @@
       .col.col-12
         .titulo-sexto.color-acento-contenido
           h5 Tabla 2.
-          span Marco normativo de los primeros auxilios en Colombia
+          span Procesos del Sistema Nacional de Gestión del Riesgo de Desastres
         .tabla-a.color-acento-contenido
           table
             thead
