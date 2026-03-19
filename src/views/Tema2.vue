@@ -138,7 +138,7 @@
         h4.text-center Violación de reglamentos
         p.text-center(data-aos="fade-down") Por incumplimiento de protocolos establecidos.
     p.mb-5(data-aos="fade-down") Por ello, el primer respondiente debe actuar únicamente dentro del ámbito de su formación y evitar intervenciones que excedan su competencia. Nadie está obligado a exponerse a peligro grave para prestar ayuda, pero sí debe hacerlo cuando sea razonablemente posible. El deber de solidaridad no convierte al ciudadano en profesional de la salud; en muchos casos, la activación del Sistema de Emergencias Médicas constituye el cumplimiento básico y suficiente de la obligación de asistencia.
-    .row.BG01.justify-content-center.pt-4.pb-4
+    .row.BG01.justify-content-center.pt-4.pb-4.mb-4
       .col.col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema2/img12.svg', alt='Imagen decorativa')

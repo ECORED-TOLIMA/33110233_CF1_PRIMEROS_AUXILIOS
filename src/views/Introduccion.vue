@@ -21,7 +21,7 @@
       .col.col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/lGO8aoN_GZA?si=kphe-TohX8_xVq9C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/M0SRi6cJ0_I?si=iCFbipmHrA8fCeL3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 </template>
 
 <script>
