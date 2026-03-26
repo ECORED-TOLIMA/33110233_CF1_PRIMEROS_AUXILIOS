@@ -86,45 +86,47 @@
             figure
               img(src="@/assets/curso/tema4/img11.svg", alt="alt").img90.m-auto
           h5.text-center Trauma grave.
-    p.mb-5(data-aos="fade-down") En la práctica, el criterio diferenciador radica en la presencia o no de compromiso de funciones vitales como respiración, circulación o estado de conciencia.
-    .BG02.mb-5(data-aos="flip-up")
-      .row.justify-content-center.align-items-center(data-aos="fade-down")
-        .col-lg-4.d-none.d-lg-block.py-3.px-5
-          figure(data-aos="zoom-in")
-            img(src="@/assets/curso/tema4/img12.png", alt="Imagen decorativa")
-        .col-lg-8
-          p.mt-5.text-center.text-lg-start(data-aos="fade-down") Por otra parte, un #[b factor de riesgo] es cualquier condición, agente o circunstancia que incrementa la probabilidad de daño. Estos pueden clasificarse en:
-          SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-4")
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema4/img13.svg", alt="Imagen decorativa").img100.m-auto
-              p Físicos, como tránsito vehicular o estructuras inestables.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema4/img14.svg", alt="Imagen decorativa").img100.m-auto
-              p Biológicos, como contacto con sangre o fluidos corporales.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema4/img15.svg", alt="Imagen decorativa").img100.m-auto
-              p Químicos, como derrames o gases tóxicos.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema4/img16.svg", alt="Imagen decorativa").img100.m-auto
-              p Eléctricos, como cables expuestos.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema4/img17.svg", alt="Imagen decorativa").img100.m-auto
-              p Ambientales, como fuego o inundaciones.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema4/img18.svg", alt="Imagen decorativa").img100.m-auto
-              p Mecánicos, como maquinaria en funcionamiento.
+    p.mb-0(data-aos="fade-down") En la práctica, el criterio diferenciador radica en la presencia o no de compromiso de funciones vitales como respiración, circulación o estado de conciencia.
+    .row
+      .col-12
+        .px-5.py-4
+          .row.align-items-center.BG02(data-aos="fade-down")
+            .col-lg-4.d-none.d-lg-block.py-3.px-5
+              figure(data-aos="zoom-in")
+                img(src="@/assets/curso/tema4/img12.png", alt="Imagen decorativa")
+            .col-lg-8.p-5
+              p.text-center.text-lg-start.mb-0(data-aos="fade-down") Por otra parte, un #[b factor de riesgo] es cualquier condición, agente o circunstancia que incrementa la probabilidad de daño. Estos pueden clasificarse en:
+              SlyderF.custom.color-acento-botones.p-4(columnas="col-lg-6 col-xl-4")
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema4/img13.svg", alt="Imagen decorativa").img100.m-auto
+                  p Físicos, como tránsito vehicular o estructuras inestables.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema4/img14.svg", alt="Imagen decorativa").img100.m-auto
+                  p Biológicos, como contacto con sangre o fluidos corporales.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema4/img15.svg", alt="Imagen decorativa").img100.m-auto
+                  p Químicos, como derrames o gases tóxicos.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema4/img16.svg", alt="Imagen decorativa").img100.m-auto
+                  p Eléctricos, como cables expuestos.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema4/img17.svg", alt="Imagen decorativa").img100.m-auto
+                  p Ambientales, como fuego o inundaciones.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema4/img18.svg", alt="Imagen decorativa").img100.m-auto
+                  p Mecánicos, como maquinaria en funcionamiento.
     p.mb-0(data-aos="fade-down") La identificación temprana de estos factores permite aplicar el principio fundamental de autoprotección. El primer respondiente debe garantizar su seguridad antes de intervenir, evitando convertirse en una nueva víctima y preservando la continuidad de la atención.
     separador
     #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -212,7 +214,7 @@
             .cajon.cajon.C01.color-primario.p-4
               p.mb-0(data-aos="fade-down") Estas medidas hacen parte del enfoque de reducción del riesgo y constituyen una fase previa al aseguramiento formal del escenario.
         p.mb-0(data-aos="fade-down") La minimización del riesgo no implica controlar completamente la situación, sino aplicar decisiones prudentes que permitan intervenir sin exponerse innecesariamente. La seguridad personal es la primera prioridad en cualquier actuación en primeros auxilios.
-    .row.BG01.justify-content-center.pt-4.pb-4
+    .row.BG01.justify-content-center.align-items-center.p-5.mb-0
       .col.col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema4/img24.svg', alt='Imagen decorativa')

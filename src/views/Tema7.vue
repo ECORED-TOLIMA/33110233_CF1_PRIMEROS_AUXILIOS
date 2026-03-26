@@ -26,44 +26,46 @@
       h2 7.1 Principios y técnica aséptica
     p(data-aos="fade-down") La bioseguridad se fundamenta en el principio de precaución universal, según el cual todo fluido corporal, como sangre, saliva, vómito o secreciones respiratorias, debe considerarse potencialmente contaminante, independientemente de la existencia de un diagnóstico confirmado. Este enfoque reduce el riesgo de transmisión de agentes biológicos, tales como virus, bacterias y hongos.
     p(data-aos="fade-down") En consecuencia, el primer respondiente debe asumir medidas de protección sistemáticas en toda intervención, aun cuando el riesgo no sea evidente.
-    p.mb-5(data-aos="fade-down") Entre los principios básicos de actuación se encuentran:
-    .BG02.mb-5(data-aos="flip-up")
-      .row.justify-content-center.align-items-center(data-aos="fade-down")
-        .col-lg-4.d-none.d-lg-block.py-3.px-5
-          figure(data-aos="zoom-in")
-            img(src="@/assets/curso/tema7/img03.png", alt="Imagen decorativa")
-        .col-lg-8
-          SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-6")
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema7/img04.svg", alt="Imagen decorativa").img100.m-auto
-              p Evitar el contacto directo con sangre u otros fluidos corporales.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema7/img05.svg", alt="Imagen decorativa").img100.m-auto
-              p Utilizar elementos de protección personal cuando estén disponibles, como guantes, tapabocas o barreras físicas improvisadas.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema7/img06.svg", alt="Imagen decorativa").img100.m-auto
-              p Realizar higiene de manos antes y después de la atención, preferiblemente con agua y jabón o soluciones alcohólicas cuando no sea posible el lavado convencional.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema7/img07.svg", alt="Imagen decorativa").img100.m-auto
-              p Desechar materiales contaminados de manera segura, evitando su reutilización.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema7/img08.svg", alt="Imagen decorativa").img100.m-auto
-              p Evitar tocarse el rostro, ojos, nariz o boca durante la intervención.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema7/img09.svg", alt="Imagen decorativa").img100.m-auto
-              p Cubrir heridas o lesiones propias antes de prestar ayuda.
+    p.mb-0(data-aos="fade-down") Entre los principios básicos de actuación se encuentran:
+    .row
+      .col-12
+        .px-5.py-4
+          .row.align-items-center.BG02(data-aos="fade-down")
+            .col-lg-4.d-none.d-lg-block.py-3.px-5
+              figure(data-aos="zoom-in")
+                img(src="@/assets/curso/tema7/img03.png", alt="Imagen decorativa")
+            .col-lg-8.p-5
+              SlyderF.custom.color-acento-botones.p-4(columnas="col-lg-6 col-xl-6")
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema7/img04.svg", alt="Imagen decorativa").img100.m-auto
+                  p Evitar el contacto directo con sangre u otros fluidos corporales.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema7/img05.svg", alt="Imagen decorativa").img100.m-auto
+                  p Utilizar elementos de protección personal cuando estén disponibles, como guantes, tapabocas o barreras físicas improvisadas.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema7/img06.svg", alt="Imagen decorativa").img100.m-auto
+                  p Realizar higiene de manos antes y después de la atención, preferiblemente con agua y jabón o soluciones alcohólicas cuando no sea posible el lavado convencional.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema7/img07.svg", alt="Imagen decorativa").img100.m-auto
+                  p Desechar materiales contaminados de manera segura, evitando su reutilización.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema7/img08.svg", alt="Imagen decorativa").img100.m-auto
+                  p Evitar tocarse el rostro, ojos, nariz o boca durante la intervención.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema7/img09.svg", alt="Imagen decorativa").img100.m-auto
+                  p Cubrir heridas o lesiones propias antes de prestar ayuda.
     .row.justify-content-center.mb-4
       .col.col-lg-10.col-12
         .cajon.cajon.C01.p-3
@@ -82,8 +84,8 @@
               .col-lg-12
                 .tarjeta.clr--pink.p-4.rounded-0.h-100
                   .tarjeta.bg-white.p-4
-                    //- #t_1_4.titulo-segundo.color-acento-contenido.mb-4(data-aos="flip-up")
-                    //-   h2 Pódcast
+                    #t_1_4.titulo-segundo.color-acento-contenido.mb-4(data-aos="flip-up")
+                      h2 Técnica aséptica básica
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Pódcast"
                     :audio="require('@/assets/curso/audio/Podcast_CF01_11220133.mp3')"
@@ -142,7 +144,7 @@
     separador
     #t_7_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 7.3 Botiquín y preparación de insumos
-    .row.justify-content-center.align-items-stretch.mb-5.g-0
+    .row.justify-content-center.align-items-stretch.mb-0.g-0
       .col-lg-7.col-12.order-lg-2.order-2
         .cajon.C04.p-4.h-100.w-100
           .row.mb-4
@@ -155,59 +157,61 @@
       .col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/tema7/img18.png', alt='Imagen decorativa')
-    .BG02.mb-5(data-aos="flip-up")
-      .row.justify-content-center.align-items-center(data-aos="fade-down")
-        .col-lg-4.d-none.d-lg-block.py-3.px-5
-          figure(data-aos="zoom-in")
-            img(src="@/assets/curso/tema7/img20.png", alt="Imagen decorativa")
-        .col-lg-8
-          SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-4")
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema7/img21.svg", alt="Imagen decorativa").img100.m-auto
-              p Guantes desechables.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema7/img22.svg", alt="Imagen decorativa").img100.m-auto
-              p Gasas estériles.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema7/img23.svg", alt="Imagen decorativa").img100.m-auto
-              p Vendas elásticas y vendas triangulares.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema7/img24.svg", alt="Imagen decorativa").img100.m-auto
-              p Apósitos adhesivos de diferentes tamaños.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema7/img25.svg", alt="Imagen decorativa").img100.m-auto
-              p Solución antiséptica.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema7/img26.svg", alt="Imagen decorativa").img100.m-auto
-              p Suero fisiológico para irrigación.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema7/img27.svg", alt="Imagen decorativa").img100.m-auto
-              p Tijeras de punta roma.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema7/img28.svg", alt="Imagen decorativa").img100.m-auto
-              p Mascarilla o dispositivo para reanimación cardiopulmonar.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema7/img29.svg", alt="Imagen decorativa").img100.m-auto
-              p Elementos para control básico de hemorragias.
-    .row.BG01.justify-content-center.pt-4.pb-4
+    .row
+      .col-12
+        .px-5.py-4
+          .row.align-items-center.BG02(data-aos="fade-down")
+            .col-lg-4.d-none.d-lg-block.py-3.px-5
+              figure(data-aos="zoom-in")
+                img(src="@/assets/curso/tema7/img20.png", alt="Imagen decorativa")
+            .col-lg-8.p-5
+              SlyderF.custom.color-acento-botones.p-4(columnas="col-lg-6 col-xl-4")
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema7/img21.svg", alt="Imagen decorativa").img100.m-auto
+                  p Guantes desechables.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema7/img22.svg", alt="Imagen decorativa").img100.m-auto
+                  p Gasas estériles.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema7/img23.svg", alt="Imagen decorativa").img100.m-auto
+                  p Vendas elásticas y vendas triangulares.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema7/img24.svg", alt="Imagen decorativa").img100.m-auto
+                  p Apósitos adhesivos de diferentes tamaños.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema7/img25.svg", alt="Imagen decorativa").img100.m-auto
+                  p Solución antiséptica.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema7/img26.svg", alt="Imagen decorativa").img100.m-auto
+                  p Suero fisiológico para irrigación.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema7/img27.svg", alt="Imagen decorativa").img100.m-auto
+                  p Tijeras de punta roma.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema7/img28.svg", alt="Imagen decorativa").img100.m-auto
+                  p Mascarilla o dispositivo para reanimación cardiopulmonar.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema7/img29.svg", alt="Imagen decorativa").img100.m-auto
+                  p Elementos para control básico de hemorragias.
+    .row.BG01.justify-content-center.align-items-center.p-5.mb-0
       .col.col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema7/img30.svg', alt='Imagen decorativa')

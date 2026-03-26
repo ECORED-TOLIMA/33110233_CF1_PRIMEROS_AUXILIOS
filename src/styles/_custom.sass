@@ -19,7 +19,7 @@
 .banner-principal .tarjeta
   background-position: left 50% !important
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
+  width: 500px !important  
 // .titulo-principal.color-acento-contenido .titulo-principal__numero span
 //   color: black !important
 .banner-interno__titulo__icono i
@@ -27,12 +27,13 @@
 .barra-avance__boton--regresar span
   color: $white !important
 .banner-principal
-  .container.tarjeta
+  .container.tarjeta 
     background-image: url("../assets/curso/portada/fondo-banner-principal.png")
-    background-size: cover
+    background-size: center
     background-position: center
+    background-repeat: no-repeat
     @media (max-width: $bp-max-md)
-      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png")
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png")      
     @media (max-width: $bp-max-xs)
       background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png")
 .banner-interno__fondo
@@ -66,18 +67,25 @@ figcaption
   background-color: #FEE7EC
 .BG01
   background-image: url("../assets/curso/BG01.png")
-  background-size: cover
   background-repeat: no-repeat
-  margin-inline: -3rem !important
-  @media (max-width: $bp-max-sm)
-    margin-inline: -0.5rem !important
+  background-size: 100% 100% 
+  margin-inline: -5.2rem !important
+  @media (max-width: $bp-max-md)
+    margin-inline: -1.5rem !important 
+    padding-left: 0 !important 
+    padding-right: 0 !important 
+    background-size: cover 
 .BG02
   background-image: url("../assets/curso/BG02.png")
   background-size: cover
   background-repeat: no-repeat
-  margin-inline: -3rem !important
-  @media (max-width: $bp-max-sm)
-    margin-inline: -0.5rem !important
+  margin-inline: -6.2rem !important
+.BG-prueba
+    //-background-image: url(../assets/curso/temas/bg1.png)
+    background-color: #fff
+    background-repeat: no-repeat
+    background-size: cover
+    margin-inline: -6.2rem !important
 .tarjeta--BG03
   background-image: url("../assets/curso/BG03.png")
   background-size: cover

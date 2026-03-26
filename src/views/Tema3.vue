@@ -26,39 +26,41 @@
       .col.col-lg-10.col-12.order-lg-2.order-2
         .cajon.cajon.C01.p-4
           p.mb-0(data-aos="fade-down") El Sistema de Emergencias Médicas (SEM) es el conjunto organizado de servicios, recursos humanos, infraestructura y procedimientos destinados a brindar atención inmediata a personas que presentan una condición que compromete su vida, integridad o funcionalidad. Su propósito es garantizar una respuesta rápida, coordinada y técnicamente adecuada desde el lugar del evento hasta la remisión a un centro asistencial.
-    p.text-center.mb-5(data-aos="fade-down") En Colombia, el SEM se articula con:
-    .BG02.mb-5(data-aos="flip-up")
-      .row.justify-content-center.align-items-center(data-aos="fade-down")
-        .col-lg-4.d-none.d-lg-block.py-3.px-5
-          figure(data-aos="zoom-in")
-            img(src="@/assets/curso/tema3/img03.png", alt="Imagen decorativa")
-        .col-lg-8
-          SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-6")
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema3/img04.svg", alt="Imagen decorativa").img100.m-auto
-              p Secretarías de Salud departamentales y municipales.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema3/img05.svg", alt="Imagen decorativa").img100.m-auto
-              p Instituciones Prestadoras de Servicios de Salud (IPS).
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema3/img06.svg", alt="Imagen decorativa").img100.m-auto
-              p Servicios de ambulancia básicos y medicalizados.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema3/img07.svg", alt="Imagen decorativa").img100.m-auto
-              p Centros Reguladores de Urgencias y Emergencias (CRUE).
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema3/img08.svg", alt="Imagen decorativa").img100.m-auto
-              p Organismos de socorro.
+    p.text-center.mb-0(data-aos="fade-down") En Colombia, el SEM se articula con:
+    .row
+      .col-12
+        .px-5.py-4
+          .row.align-items-center.BG02(data-aos="fade-down")
+            .col-lg-4.d-none.d-lg-block.py-3.px-5
+              figure(data-aos="zoom-in")
+                img(src="@/assets/curso/tema3/img03.png", alt="Imagen decorativa")
+            .col-lg-8.p-5
+              SlyderF.custom.color-acento-botones.p-4(columnas="col-lg-6 col-xl-6")
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema3/img04.svg", alt="Imagen decorativa").img100.m-auto
+                  p Secretarías de Salud departamentales y municipales.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema3/img05.svg", alt="Imagen decorativa").img100.m-auto
+                  p Instituciones Prestadoras de Servicios de Salud (IPS).
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema3/img06.svg", alt="Imagen decorativa").img100.m-auto
+                  p Servicios de ambulancia básicos y medicalizados.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema3/img07.svg", alt="Imagen decorativa").img100.m-auto
+                  p Centros Reguladores de Urgencias y Emergencias (CRUE).
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema3/img08.svg", alt="Imagen decorativa").img100.m-auto
+                  p Organismos de socorro.
     .row.justify-content-center.mb-5
       .col.col-lg-10.col-12
         .cajon.cajon.C02.p-3
@@ -68,7 +70,7 @@
             .col.col-lg-auto.order-lg-2.order-1.d-none.d-lg-block
               figure.mb-0
                 img(src='@/assets/curso/tema3/img09.svg', alt='Imagen decorativa')
-    .row.BG01.justify-content-center.pt-4.pb-4
+    .row.BG01.justify-content-center.align-items-center.p-5.mb-0
       .col.col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema3/img10.svg', alt='Imagen decorativa')

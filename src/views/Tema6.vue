@@ -194,50 +194,52 @@
       .bloque-texto-g__texto.p-4
         p Aunque el primer respondiente no cumple funciones investigativas ni judiciales, su intervención en el escenario puede influir directamente en la preservación de posibles elementos probatorios. Por ello, debe conocer y aplicar principios básicos de protección del lugar de los hechos, especialmente en eventos como accidentes de tránsito con lesiones graves o fallecidos, situaciones asociadas a violencia física, sospecha de delito, muerte aparente, accidentes laborales con posible responsabilidad jurídica o incidentes con armas o sustancias peligrosas.
     p(data-aos="fade-down") En este contexto, es importante aplicar principios básicos de actuación, en donde el primer respondiente orienta su conducta bajo tres criterios fundamentales: la prioridad de la vida sobre la evidencia, la intervención mínima necesaria y la preservación proporcional del entorno. La atención vital siempre prevalece sobre la conservación del escenario.
-    p.mb-5(data-aos="fade-down") En cuanto a las conductas recomendadas, cuando las condiciones lo permitan y sin poner en riesgo su seguridad ni la atención de la víctima, el primer respondiente debe:
-    .BG02.mb-5(data-aos="flip-up")
-      .row.justify-content-center.align-items-center(data-aos="fade-down")
-        .col-lg-4.d-none.d-lg-block.py-3.px-5
-          figure(data-aos="zoom-in")
-            img(src="@/assets/curso/tema6/img16.png", alt="Imagen decorativa")
-        .col-lg-8
-          SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-4")
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema6/img17.svg", alt="Imagen decorativa").img100.m-auto
-              p Evitar mover objetos innecesariamente.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema6/img18.svg", alt="Imagen decorativa").img100.m-auto
-              p No retirar elementos incrustados en la víctima.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema6/img19.svg", alt="Imagen decorativa").img100.m-auto
-              p No manipular armas u objetos sospechosos.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema6/img20.svg", alt="Imagen decorativa").img100.m-auto
-              p Limitar el acceso de curiosos o terceros.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema6/img21.svg", alt="Imagen decorativa").img100.m-auto
-              p Delimitar o acordonar el área si es posible.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema6/img22.svg", alt="Imagen decorativa").img100.m-auto
-              p Evitar pisar o alterar zonas críticas.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema6/img23.svg", alt="Imagen decorativa").img100.m-auto
-              p Informar oportunamente a la autoridad competente sobre la situación.
-    .row.BG01.justify-content-center.align-items-center.pt-4.pb-4
+    p.mb-0(data-aos="fade-down") En cuanto a las conductas recomendadas, cuando las condiciones lo permitan y sin poner en riesgo su seguridad ni la atención de la víctima, el primer respondiente debe:
+    .row
+      .col-12
+        .px-5.py-4
+          .row.align-items-center.BG02(data-aos="fade-down")
+            .col-lg-4.d-none.d-lg-block.py-3.px-5
+              figure(data-aos="zoom-in")
+                img(src="@/assets/curso/tema6/img16.png", alt="Imagen decorativa")
+            .col-lg-8.p-5
+              SlyderF.custom.color-acento-botones.p-4(columnas="col-lg-6 col-xl-4")
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema6/img17.svg", alt="Imagen decorativa").img100.m-auto
+                  p Evitar mover objetos innecesariamente.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema6/img18.svg", alt="Imagen decorativa").img100.m-auto
+                  p No retirar elementos incrustados en la víctima.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema6/img19.svg", alt="Imagen decorativa").img100.m-auto
+                  p No manipular armas u objetos sospechosos.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema6/img20.svg", alt="Imagen decorativa").img100.m-auto
+                  p Limitar el acceso de curiosos o terceros.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema6/img21.svg", alt="Imagen decorativa").img100.m-auto
+                  p Delimitar o acordonar el área si es posible.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema6/img22.svg", alt="Imagen decorativa").img100.m-auto
+                  p Evitar pisar o alterar zonas críticas.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema6/img23.svg", alt="Imagen decorativa").img100.m-auto
+                  p Informar oportunamente a la autoridad competente sobre la situación.
+    .row.BG01.justify-content-center.align-items-center.p-5.mb-0
       .col.col-lg-3.col-8.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema6/img24.svg', alt='Imagen decorativa')

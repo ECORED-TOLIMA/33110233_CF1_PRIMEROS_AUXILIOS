@@ -39,7 +39,7 @@
     #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.1 Generalidades de los primeros auxilios
     p(data-aos="fade-down") Los primeros auxilios constituyen el conjunto de acciones inmediatas y temporales que se brindan a una persona ante una situación de urgencia o emergencia, con el propósito de preservar la vida, evitar el agravamiento de las lesiones y facilitar el acceso oportuno a la atención médica especializada. Representan la primera respuesta organizada frente a un evento adverso y forman parte esencial de la cadena de atención en salud.
-    .row.BG01.justify-content-center.align-items-center.pt-4.pb-4.mb-4
+    .row.BG01.justify-content-center.align-items-center.p-5.mb-0
       .col.col-lg-3.col-8.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema1/img06.svg', alt='Imagen decorativa')
@@ -62,45 +62,47 @@
                   i.fas.fa-briefcase-medical
                   p.mb-0 Son medidas transitorias hasta la llegada del Sistema de Emergencias Médicas (SEM).
       p.mb-0.text-center.order-3.mt-4(data-aos="fade-down") Los primeros auxilios se caracterizan por ser:
-    .BG02.mb-5(data-aos="flip-up")
-      .row.justify-content-center.align-items-center(data-aos="fade-down")
-        .col-lg-4.d-none.d-lg-block.py-3.px-5
-          figure(data-aos="zoom-in")
-            img(src="@/assets/curso/tema1/img07.png", alt="Imagen decorativa")
-        .col-lg-8
-          SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-4")
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img08.svg", alt="Imagen decorativa").img100.m-auto
-              h4 Inmediatos
-              p Se aplican en el mismo lugar donde ocurre el evento.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img09.svg", alt="Imagen decorativa").img100.m-auto
-              h4 Temporales
-              p Mantienen estabilidad básica hasta recibir atención avanzada.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img10.svg", alt="Imagen decorativa").img100.m-auto
-              h4 Básicos
-              p Se limitan a técnicas elementales y no invasivas.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img11.svg", alt="Imagen decorativa").img100.m-auto
-              h4 Proporcionales
-              p La intervención debe corresponder a la gravedad observada.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img12.svg", alt="Imagen decorativa").img100.m-auto
-              h4 Seguros
-              p No deben generar riesgos adicionales.
+    .row
+      .col-12
+        .px-5.py-4
+          .row.align-items-center.BG02(data-aos="fade-down")
+            .col-lg-4.d-none.d-lg-block.py-3.px-5
+              figure(data-aos="zoom-in")
+                img(src="@/assets/curso/tema1/img07.png", alt="Imagen decorativa")
+            .col-lg-8.p-5
+              SlyderF.custom.color-acento-botones.p-4(columnas="col-lg-6 col-xl-4")
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img08.svg", alt="Imagen decorativa").img100.m-auto
+                  h4 Inmediatos
+                  p Se aplican en el mismo lugar donde ocurre el evento.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img09.svg", alt="Imagen decorativa").img100.m-auto
+                  h4 Temporales
+                  p Mantienen estabilidad básica hasta recibir atención avanzada.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img10.svg", alt="Imagen decorativa").img100.m-auto
+                  h4 Básicos
+                  p Se limitan a técnicas elementales y no invasivas.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img11.svg", alt="Imagen decorativa").img100.m-auto
+                  h4 Proporcionales
+                  p La intervención debe corresponder a la gravedad observada.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img12.svg", alt="Imagen decorativa").img100.m-auto
+                  h4 Seguros
+                  p No deben generar riesgos adicionales.
     p(data-aos="fade-down") Estas características garantizan que la actuación sea útil, organizada y ajustada a protocolos técnicos reconocidos, como los establecidos por la Cruz Roja Colombiana y las Guías de Soporte Vital Básico de la American Heart Association (AHA).
-    .row.BG01.justify-content-center.align-items-center.pt-4.pb-4
+    .row.BG01.justify-content-center.align-items-center.p-5.mb-0
       .col.col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema1/img13.svg', alt='Imagen decorativa')
@@ -167,43 +169,45 @@
         .cajon.cajon.C02.color-secundario.p-4.mb-3
           p.mb-0(data-aos="fade-down") Su actuación se fundamenta en el principio constitucional de solidaridad (Artículo 95 de la Constitución Política de Colombia), el cual establece el deber de obrar frente a situaciones que pongan en peligro la vida o la integridad de otras personas.
         p.mb-0(data-aos="fade-down") La función del primer respondiente no es realizar actos médicos, sino brindar asistencia básica y organizar la respuesta inicial. Su intervención se orienta a:
-    .BG02.mb-5(data-aos="flip-up")
-      .row.justify-content-center.align-items-center(data-aos="fade-down")
-        .col-lg-4.d-none.d-lg-block.py-3.px-5
-          figure(data-aos="zoom-in")
-            img(src="@/assets/curso/tema1/img20.png", alt="Imagen decorativa")
-        .col-lg-8
-          SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-6")
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img21.svg", alt="Imagen decorativa").img100.m-auto
-              p Identificar riesgos inmediatos.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img22.svg", alt="Imagen decorativa").img100.m-auto
-              p Garantizar condiciones mínimas de seguridad.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img23.svg", alt="Imagen decorativa").img100.m-auto
-              p Evaluar de forma básica el estado del lesionado.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img24.svg", alt="Imagen decorativa").img100.m-auto
-              p Activar oportunamente el Sistema de Emergencias Médicas (SEM).
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img25.svg", alt="Imagen decorativa").img100.m-auto
-              p Aplicar técnicas básicas no invasivas.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img26.svg", alt="Imagen decorativa").img100.m-auto
-              p Proporcionar información clara a los servicios especializados.
+    .row
+      .col-12
+        .px-5.py-4
+          .row.align-items-center.BG02(data-aos="fade-down")
+            .col-lg-4.d-none.d-lg-block.py-3.px-5
+              figure(data-aos="zoom-in")
+                img(src="@/assets/curso/tema1/img20.png", alt="Imagen decorativa")
+            .col-lg-8.p-5
+              SlyderF.custom.color-acento-botones.p-4(columnas="col-lg-6 col-xl-6")
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img21.svg", alt="Imagen decorativa").img100.m-auto
+                  p Identificar riesgos inmediatos.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img22.svg", alt="Imagen decorativa").img100.m-auto
+                  p Garantizar condiciones mínimas de seguridad.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img23.svg", alt="Imagen decorativa").img100.m-auto
+                  p Evaluar de forma básica el estado del lesionado.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img24.svg", alt="Imagen decorativa").img100.m-auto
+                  p Activar oportunamente el Sistema de Emergencias Médicas (SEM).
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img25.svg", alt="Imagen decorativa").img100.m-auto
+                  p Aplicar técnicas básicas no invasivas.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img26.svg", alt="Imagen decorativa").img100.m-auto
+                  p Proporcionar información clara a los servicios especializados.
     .row.justify-content-center.mb-4
       .col.col-lg-8.col-12
         .tarjeta.tarjeta--C01.p-3
@@ -234,7 +238,7 @@
           .tarjeta.tarjeta--C02(style= "width: 100%")
             .p-4(data-aos="fade-down")
               h5.text-center Los recursos disponibles.
-    .row.justify-content-center.align-items-stretch.mb-5.g-0
+    .row.justify-content-center.align-items-stretch.mb-4.g-0
       .col-lg-6.col-12.order-lg-1.order-2
         .cajon.C01.px-4.py-2.h-100.w-100
           h5(data-aos="fade-down") Puede realizar acciones como: 
@@ -264,40 +268,41 @@
       .col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/tema1/img31.svg', alt='Imagen decorativa')
-    p.mb-5(data-aos="fade-down") El primer respondiente debe actuar dentro de límites claramente definidos para evitar daño adicional o implicaciones legales. No debe:
-    .BG02.mb-5(data-aos="flip-up")
-      .row.justify-content-center.align-items-center(data-aos="fade-down")
-        .col-lg-4.d-none.d-lg-block.py-3.px-5
-          figure(data-aos="zoom-in")
-            img(src="@/assets/curso/tema1/img32.png", alt="Imagen decorativa")
-        .col-lg-8
-          p.mt-4.text-center.text-lg-start(data-aos="fade-down") El primer respondiente debe actuar dentro de límites claramente definidos para evitar daño adicional o implicaciones legales. No debe:
-          SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-4")
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img33.svg", alt="Imagen decorativa").img100.m-auto
-              p Realizar procedimientos invasivos sin formación médica.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img34.svg", alt="Imagen decorativa").img100.m-auto
-              p Administrar medicamentos sin indicación profesional.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img35.svg", alt="Imagen decorativa").img100.m-auto
-              p Manipular innecesariamente a la víctima.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img36.svg", alt="Imagen decorativa").img100.m-auto
-              p Emitir diagnósticos clínicos.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img37.svg", alt="Imagen decorativa").img100.m-auto
-              p Sustituir la atención médica especializada.
+    .row
+      .col-12
+        .px-5.py-4
+          .row.align-items-center.BG02(data-aos="fade-down")
+            .col-lg-4.d-none.d-lg-block.py-3.px-5
+              figure(data-aos="zoom-in")
+                img(src="@/assets/curso/tema1/img32.png", alt="Imagen decorativa")
+            .col-lg-8.p-5
+              p.text-center.text-lg-start.mb-0(data-aos="fade-down") El primer respondiente debe actuar dentro de límites claramente definidos para evitar daño adicional o implicaciones legales. No debe:
+              SlyderF.custom.color-acento-botones.p-4(columnas="col-lg-6 col-xl-4")
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img33.svg", alt="Imagen decorativa").img100.m-auto
+                  p Realizar procedimientos invasivos sin formación médica.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img34.svg", alt="Imagen decorativa").img100.m-auto
+                  p Administrar medicamentos sin indicación profesional.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img35.svg", alt="Imagen decorativa").img100.m-auto
+                  p Manipular innecesariamente a la víctima.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img36.svg", alt="Imagen decorativa").img100.m-auto
+                  p Emitir diagnósticos clínicos.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img37.svg", alt="Imagen decorativa").img100.m-auto
+                  p Sustituir la atención médica especializada.
     p.mb-0(data-aos="fade-down") El exceso en la intervención puede configurar conductas imprudentes o culposas, de acuerdo con el Código Penal Colombiano (Ley 599 de 2000), especialmente cuando se actúa con negligencia o impericia.
     separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
@@ -488,7 +493,7 @@
       .col-lg-auto.col-9.titulo01(style="z-index:1")
         .p-2
           h3.mb-0.ms-3 d) Identificación de signos evidentes de trauma
-    .row.BG01.justify-content-center.align-items-center.pt-4.pb-4
+    .row.BG01.justify-content-center.align-items-center.p-5.mb-0
       .col.col-lg-4.col-8.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema1/img50.svg', alt='Imagen decorativa')
@@ -656,43 +661,45 @@
         .cajon.cajon.C01.color-primario.p-4.mb-3
           p.mb-0(data-aos="fade-down") La intervención en primeros auxilios no constituye únicamente un acto técnico; también representa un acto ético que implica respeto por la dignidad, la integridad y la autonomía de la persona afectada. La forma en que el primer respondiente actúa y se comunica influye directamente en la estabilidad emocional de la víctima y en la organización del entorno durante la emergencia.
         p.mb-0(data-aos="fade-down") La conducta bioética se fundamenta en principios universalmente reconocidos en el ámbito de la salud y compatibles con el ordenamiento jurídico colombiano, particularmente con el respeto por la dignidad humana consagrado en el artículo 1 de la Constitución Política. Aunque el primer respondiente no realiza un acto médico formal, su actuación debe orientarse por los siguientes principios:
-    .BG02.mb-5(data-aos="flip-up")
-      .row.justify-content-center.align-items-center(data-aos="fade-down")
-        .col-lg-4.d-none.d-lg-block.py-3.px-5
-          figure(data-aos="zoom-in")
-            img(src="@/assets/curso/tema1/img61.png", alt="Imagen decorativa")
-        .col-lg-8
-          SlyderF.custom.color-acento-botones(columnas="col-lg-6 col-xl-6")
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img62.svg", alt="Imagen decorativa").img100.m-auto
-              h4 Respeto por la dignidad humana
-              p Tratar a la persona con consideración y humanidad.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img63.svg", alt="Imagen decorativa").img100.m-auto
-              h4 No maleficencia
-              p Evitar generar daño adicional.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img64.svg", alt="Imagen decorativa").img100.m-auto
-              h4 Beneficencia
-              p Actuar buscando el mayor beneficio posible para la víctima.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img65.svg", alt="Imagen decorativa").img100.m-auto
-              h4 Confidencialidad
-              p No divulgar información personal innecesaria.
-            .tarjeta.tarjeta--slyder.p-4
-              .row.justify-content-center.mb-3
-                .col-6.col-lg-8
-                  img(src="@/assets/curso/tema1/img66.svg", alt="Imagen decorativa").img100.m-auto
-              h4 Prudencia
-              p Actuar dentro de los límites de su competencia.
+    .row
+      .col-12
+        .px-5.py-4
+          .row.align-items-center.BG02(data-aos="fade-down")
+            .col-lg-4.d-none.d-lg-block.py-3.px-5
+              figure(data-aos="zoom-in")
+                img(src="@/assets/curso/tema1/img61.png", alt="Imagen decorativa")
+            .col-lg-8.p-5
+              SlyderF.custom.color-acento-botones.p-4(columnas="col-lg-6 col-xl-6")
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img62.svg", alt="Imagen decorativa").img100.m-auto
+                  h4 Respeto por la dignidad humana
+                  p Tratar a la persona con consideración y humanidad.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img63.svg", alt="Imagen decorativa").img100.m-auto
+                  h4 No maleficencia
+                  p Evitar generar daño adicional.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img64.svg", alt="Imagen decorativa").img100.m-auto
+                  h4 Beneficencia
+                  p Actuar buscando el mayor beneficio posible para la víctima.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img65.svg", alt="Imagen decorativa").img100.m-auto
+                  h4 Confidencialidad
+                  p No divulgar información personal innecesaria.
+                .tarjeta.tarjeta--slyder.p-4
+                  .row.justify-content-center.mb-3
+                    .col-6.col-lg-8
+                      img(src="@/assets/curso/tema1/img66.svg", alt="Imagen decorativa").img100.m-auto
+                  h4 Prudencia
+                  p Actuar dentro de los límites de su competencia.
     .row.justify-content-center.mb-4
       .col.col-lg-10.col-12
         .tarjeta.tarjeta--C03.p-3
@@ -718,7 +725,7 @@
             .p-4(data-aos="fade-down")
               h5.text-center Respetar la negativa, salvo que exista riesgo vital evidente.
     p.mb-0(data-aos="fade-down") En caso de inconsciencia, se presume consentimiento para acciones orientadas a preservar la vida, en concordancia con el principio de protección de la vida y la integridad.
-    .row.BG01.justify-content-center.align-items-center.pt-4.pb-4
+    .row.BG01.justify-content-center.align-items-center.p-5.mb-0
       .col.col-lg-3.col-8.order-lg-2.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/tema1/img70.svg', alt='Imagen decorativa')
