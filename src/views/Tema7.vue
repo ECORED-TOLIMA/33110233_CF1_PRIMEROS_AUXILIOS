@@ -88,7 +88,7 @@
                       h2 Técnica aséptica básica
                     TarjetaAudio.color-acento-botones.mb-3(
                     texto="Pódcast"
-                    :audio="require('@/assets/curso/audio/Podcast_CF01_11220133.mp3')"
+                    :audio="require('@/assets/curso/audio/Podcast_CF01_33110233.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                 )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
