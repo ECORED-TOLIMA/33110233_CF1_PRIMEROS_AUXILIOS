@@ -85,7 +85,7 @@ export default {
           },
           {
             numero: '3.2',
-            titulo: 'Red pública y número único',
+            titulo: 'Red pública de urgencias y número único',
             hash: 't_3_2',
           },
           {
@@ -121,7 +121,7 @@ export default {
       {
         nombreRuta: 'tema5',
         numero: '5',
-        titulo: 'Aseguramiento del escenario',
+        titulo: 'Aseguramiento y control del escenario',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -164,7 +164,7 @@ export default {
           { numero: '7.2', titulo: 'Métodos de barrera', hash: 't_7_2' },
           {
             numero: '7.3',
-            titulo: 'Botiquín y preparación de insumos',
+            titulo: 'Botiquín de primeros auxilios y preparación de insumos',
             hash: 't_7_3',
           },
         ],

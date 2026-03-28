@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 5
-      h1 Aseguramiento del escenario
+      h1 Aseguramiento y control del escenario
     p.mb-5(data-aos="fade-down") El aseguramiento del escenario constituye una responsabilidad esencial del primer respondiente en situaciones de urgencia y emergencia. Su finalidad es garantizar que la intervención se realice en condiciones mínimas de seguridad, orden y control, evitando la generación de nuevos riesgos para la víctima, el auxiliador o terceros.
     .row.justify-content-center.mb-4
       .col.col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-3

@@ -96,7 +96,7 @@
     p.mb-0(data-aos="fade-down") Para el primer respondiente, comprender la estructura y dinámica del SEM permite reconocer la importancia de una activación oportuna, suministrar información clara al momento de la llamada y facilitar la transición hacia la atención especializada.
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 3.2 Red pública y numero único
+      h2 3.2 Red pública de urgencias y número único
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="flip-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img11.jpg')})`}"

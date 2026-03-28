@@ -143,7 +143,7 @@
           p.mb-0(data-aos="fade-down") Cuando no se disponga de elementos de barrera, el primer respondiente debe evaluar el riesgo y, de ser necesario, priorizar maniobras que no impliquen contacto directo con fluidos, activando oportunamente el Sistema de Emergencias Médicas.
     separador
     #t_7_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-      h2 7.3 Botiquín y preparación de insumos
+      h2 7.3 Botiquín de primeros auxilios y preparación de insumos
     .row.justify-content-center.align-items-stretch.mb-0.g-0
       .col-lg-7.col-12.order-lg-2.order-2
         .cajon.C04.p-4.h-100.w-100
